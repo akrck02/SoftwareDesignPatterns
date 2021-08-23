@@ -1,3 +1,3 @@
 export interface Enemy {
-    takeDamage() : Number;
-};
+    takeDamage() : number;
+}

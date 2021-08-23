@@ -7,7 +7,7 @@ export default abstract class EnemyDecorator implements Enemy {
         this.enemy = enemy;
     }
 
-    takeDamage() : Number {
+    takeDamage() : number {
         return this.enemy.takeDamage();
     }
 
