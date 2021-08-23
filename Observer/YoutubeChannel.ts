@@ -15,7 +15,7 @@ export default class YoutubeChannel implements Observable {
     }
 
     detach(observer: Observer): void {
-
+        
     }
 
     lastVideoTitle(): string {
